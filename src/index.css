@@ -1,0 +1,30 @@
+@import "tailwindcss";
+.bg-background {
+  @apply bg-[#141414];
+}
+.bg-section-200 {
+  @apply bg-[#323234];
+}
+.bg-section-900 {
+  @apply bg-[#272728];
+}
+.bg-blue-500 {
+  @apply bg-[#3454D1];
+}
+.text-dark {
+  @apply text-[#141414];
+}
+.text-light {
+  @apply text-[#EFEFEF];
+}
+.bg-light {
+  @apply bg-[#EFEFEF];
+}
+
+.bg-nav {
+  @apply bg-[#34D1BF];
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
