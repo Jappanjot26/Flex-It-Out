@@ -8,20 +8,20 @@ function Footer() {
         style={{ backgroundImage: `url(${Footer1})` }}
         className="h-2/3 w-full bg-no-repeat bg-cover flex p-8 xl:p-32 xl:items-center justify-between flex-col xl:flex-row"
       >
-        <span className="anton italic  uppercase text-6xl xl:text-8xl text-main w-1/6 xl:w-full leading-16 xl:leading-28 text-center xl:text-start tracking-wide xl:tracking-normal">
+        <span className="anton italic  uppercase text-6xl xl:text-8xl text-main w-1/6 xl:w-full leading-16 xl:leading-28 text-center xl:text-start tracking-wide xl:tracking-normal md:text-7xl md:leading-20 md:w-full md:pt-40 xl:pt-0">
           Get in touch <br />
           today
         </span>
-        <div className="w-full text-center">
+        <div className="w-full text-center md:pb-20 xl:pb-0">
           <Button>Join Now</Button>
         </div>
       </div>
       <div className=" bg-main flex w-full h-1/3 items-center justify-between overflow-hidden">
         <div className="hanken p-8 xl:p-32">
-          <span className="anton text-2xl xl:text-4xl uppercase italic">
+          <span className="anton text-2xl xl:text-4xl uppercase italic md:text-4xl">
             Quick Links
           </span>
-          <ul className="text-lg xl:text-2xl mt-4 font-semibold">
+          <ul className="text-lg md:text-2xl mt-4 font-semibold">
             <li>Home</li>
             <li>About</li>
             <li>Features</li>

@@ -1,6 +1,6 @@
 function TestinomialCard({ data }) {
   return (
-    <div className="flex flex-col hanken font-semibold text-black xl:text-2xl w-full text-md h-5/6 xl:h-full">
+    <div className="flex flex-col hanken font-semibold text-black md:text-2xl w-full text-md  h-5/6 xl:h-full md:w-5/6 ">
       <img src={data.img} className="h-1/2" />
       <div className="bg-main p-8 flex flex-col w-full h-1/2 ">
         <span className="h-3/4 text-justify">{data.review}</span>

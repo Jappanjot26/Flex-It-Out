@@ -25,11 +25,11 @@ const testinomials = [
 ];
 function Reviews() {
   return (
-    <div className="h-screen flex w-screen p-8 xl:p-32 bg-background items-center flex-col xl:pt-48 overflow-hidden">
+    <div className="h-screen flex w-screen p-8 xl:p-32 bg-background items-center flex-col xl:pt-48 overflow-hidden pt-32">
       <div className="anton text-main xl:text-8xl text-6xl italic uppercase mb-16 ">
         Before and after
       </div>
-      <div className="flex gap-16 overflow-scroll xl:justify-center w-screen xl:w-5/6 xl:flex-nowrap flex-wrap px-8 flex-col xl:flex-row xl:gap-4">
+      <div className="flex gap-16 overflow-scroll xl:justify-center w-screen xl:w-5/6 xl:flex-nowrap flex-wrap px-8 flex-col xl:flex-row xl:gap-4 md:w-5/6 ">
         {testinomials.map((ele) => (
           <TestinomialCard data={ele} key={ele.name} />
         ))}

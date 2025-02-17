@@ -40,7 +40,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.393);
+  background: rgba(192, 192, 192, 0.393);
   position: absolute;
 }
 .anton {

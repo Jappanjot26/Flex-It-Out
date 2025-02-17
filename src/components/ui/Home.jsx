@@ -10,12 +10,12 @@ import Navbar from "./Navbar";
 function Home() {
   return (
     <div className="overflow-hidden">
-      <Excercise />
-      {/* <Hero />
+      {/* <Excercise /> */}
+      <Hero />
       <About />
       <Features />
       <Reviews />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }
