@@ -5,17 +5,18 @@ import Features from "./home/Features";
 import Reviews from "./home/Reviews";
 import Footer from "./home/Footer";
 import Excercise from "./Excercise";
+import Navbar from "./Navbar";
 
 function Home() {
   return (
-    <>
-      {/* <Excercise /> */}
-      <Hero />
+    <div className="overflow-hidden">
+      <Excercise />
+      {/* <Hero />
       <About />
       <Features />
       <Reviews />
-      <Footer />
-    </>
+      <Footer /> */}
+    </div>
   );
 }
 

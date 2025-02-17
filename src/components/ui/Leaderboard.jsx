@@ -39,19 +39,19 @@ const data = {
 
 function Leaderboard() {
   return (
-    <div className="h-full w-5/6 rounded-xl flex flex-col items-center mb-16 bg-[#222] py-6">
+    <div className="h-full xl:w-5/6 rounded-xl flex flex-col items-center mb-16 bg-[#222] md:w-2/3 p-6">
       <span className="text-white uppercase anton text-3xl mb-6">
         Leaderboard
       </span>
-      <div className="flex gap-6 mb-4 items-end h-56">
+      <div className="flex gap-4 md:gap-8 xl:gap-6 mb-4 items-end h-56">
         <SubLeaders data={data.leaders[1]}>2</SubLeaders>
         <Leader data={data.leaders[0]} />
         <SubLeaders data={data.leaders[2]}>3</SubLeaders>
       </div>
       <div>
         <OtherPositions data={data.leaders[3]} />
-        <OtherPositions data={data.leaders[3]} />
-        <OtherPositions data={data.leaders[3]} />
+        <OtherPositions data={data.leaders[4]} />
+        <OtherPositions data={data.user} />
       </div>
     </div>
   );

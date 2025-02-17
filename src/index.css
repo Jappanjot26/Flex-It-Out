@@ -35,7 +35,13 @@
 }
 
 ::-webkit-scrollbar {
-  width: 0;
+  width: 12px;
+  position: absolute;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.393);
+  position: absolute;
 }
 .anton {
   font-family: "Anton", sans-serif;
