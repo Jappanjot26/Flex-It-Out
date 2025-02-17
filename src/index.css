@@ -17,6 +17,15 @@
 .text-light {
   @apply text-[#EFEFEF];
 }
+.text-main {
+  @apply text-[#f5ed38];
+}
+.bg-main {
+  @apply bg-[#f5ed38];
+}
+.bg-main-hover {
+  @apply bg-[#000000];
+}
 .bg-light {
   @apply bg-[#EFEFEF];
 }
@@ -27,4 +36,10 @@
 
 ::-webkit-scrollbar {
   width: 0;
+}
+.anton {
+  font-family: "Anton", sans-serif;
+}
+.hanken {
+  font-family: "Hanken Grotesk", sans-serif;
 }

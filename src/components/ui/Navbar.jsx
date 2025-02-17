@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import Logo from "../../img/Flex-it-out-Logo.png";
 function Navbar() {
   return (
-    <div className="bg-nav w-full h-16 p-2 flex items-center">
-      <Link className="text-dark font-bold text-2xl" to="/home">
-        💪 Flex-It-Out
+    <div className="w-full h-32 py-4 flex items-center">
+      <Link to="/home">
+        <img src={Logo} alt="Flex It Out Logo" className="mt-6 h-28" />
       </Link>
     </div>
   );

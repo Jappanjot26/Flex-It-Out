@@ -10,7 +10,6 @@ import {
   useNavigate,
 } from "react-router-dom";
 import { useEffect } from "react";
-import Excercise from "./components/ui/Excercise";
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(true);
@@ -41,10 +40,6 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/home" element={<PrivateRoute element={<Home />} />} />
-        <Route
-          path="/excercise"
-          element={<PrivateRoute element={<Excercise />} />}
-        />
       </Routes>
     </>
   );
